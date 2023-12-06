@@ -25,6 +25,11 @@ app.get('/notes', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
+// delete route for notes
+// app.delete('/api/notes/:id', (req, res) => {
+//       console.log("DELETE From Server");
+//   })   
+
 // wild card handling
 app.get('*', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/index.html'))
