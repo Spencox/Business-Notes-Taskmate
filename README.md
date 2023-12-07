@@ -14,7 +14,7 @@ Clone the repository with git clone https://github.com/Spencox/Business-Notes-Ta
 ## Usage
 
 To open site, click on the link below:
-HEROKU LINK
+https://mysterious-shore-04920-41746706c869.herokuapp.com/ 
 
 Location of GitHub repo:
 https://github.com/Spencox/Business-Notes-Taskmate
