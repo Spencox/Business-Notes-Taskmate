@@ -1,15 +1,17 @@
+// import modules
 const express = require('express');
 const path = require('path');
 const api = require('./routes/index');
 
+// set port for Heroku or local dev
 const PORT = process.env.PORT || 3001;
 
+// set up express
 const app = express();
 
-// Middleware for parsing JSON and urlencoded form data
+// Middleware for parsing JSON, urlencoded form data, and public folder use
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
 app.use(express.static('public'));
 
 // Send all the requests that begin with /api to the index.js in the routes folder
@@ -25,14 +27,10 @@ app.get('/notes', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
 
-// delete route for notes
-// app.delete('/api/notes/:id', (req, res) => {
-//       console.log("DELETE From Server");
-//   })   
-
-// wild card handling
+// GET wild card handling
 app.get('*', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/index.html'))
 );
 
+// server start
 app.listen(PORT, () => console.log(`App listening on port ${PORT}`));
