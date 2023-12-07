@@ -1,38 +1,51 @@
 # Business-Notes-Taskmate
-[![License]()]()
+
 ## Description
-Provide a short description explaining the what, why, and how of your project. 
-Use the following questions as a guide:
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+This program is a helpful app for creating a dynamic list of business task and notes that can be created and deleted depending on if the task is complete. The motivation behind this app is to get small business people to have a free and easy tool to keep track of all the tasks needed to run their business. I learned about express, express routing, and using async functions. 
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
+
 ## Installation
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Clone the repository with git clone https://github.com/Spencox/Business-Notes-Taskmate.git, navigate to the project directory using cd Business-Notes-Taskmate, install dependencies with `npm install`, run the program with node index.js or npm start.
+
 ## Usage
-Provide instructions and examples for use. Include screenshots as needed.
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-```md
-![alt text](assets/images/screenshot.png)
-```
+
+To open site, click on the link below:
+HEROKU LINK
+
+Location of GitHub repo:
+https://github.com/Spencox/Business-Notes-Taskmate
+
+After navigating to the Heroku link above, you will be greeted by a splash page:
+
+![alt text](/public/assets/screenshots/Spash_Page.png)
+
+Click on the Get Started and you will be sent to the notes page:
+
+![alt text](/public/assets/screenshots/Notes_Page.png)
+
+Click in the area where it says Note Title and enter note title, after that click down into the Note Text area and type in your custom note:
+
+![alt text](/public/assets/screenshots/Write_Note.png)
+
+There will be two options to the top left for save or clear note. Clear note will clear both text input areas. Save Note will save the note to the database and then appear on the left side of the screen:
+
+![alt text](/public/assets/screenshots/Note_Select_New_Note.png)
+
+If you select the text of the Note Title on the left then it will appear in the note input area. At this point you can either create a new note by clicking the New Note Button on the top right or you can delete the note by hitting the trashcan icon on the left. 
+
 ## Credits
-List your collaborators, if any, with links to their GitHub profiles.
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-If you followed tutorials, include links to those here as well.
-## License
-This app is licensed under the None license. Information on the license can be found online at  or by clicking the badge above.
+University of Texas at Austin. (n.d.). Modularized Routing Activity. Retrieved from https://git.bootcampcontent.com/University-of-Texas-at-Austin/UTA-VIRT-FSF-PT-09-2023-U-LOLC/-/tree/main/11-Express/01-Activities/21-Ins_Modular-Routing/02_Modularized?ref_type=heads
+
+Node.js. (n.d.). fs.readFile Method. Retrieved from https://nodejs.org/dist/latest-v6.x/docs/api/fs.html#fs_fs_readfile_file_options_callback
+
+University of Texas at Austin. (n.d.). Modular Routing Student Activity. Retrieved from https://git.bootcampcontent.com/University-of-Texas-at-Austin/UTA-VIRT-FSF-PT-09-2023-U-LOLC/-/tree/main/11-Express/01-Activities/22-Stu_Modular-Routing?ref_type=heads
+
+Express.js. (n.d.). app.delete Method. Retrieved from https://expressjs.com/en/5x/api.html#app.delete.method
 ## Questions
 GitHub Repo: https://github.com/Spencox/Business-Notes-Taskmate  
 Email: spencox@gmail.com
 
-cite: https://git.bootcampcontent.com/University-of-Texas-at-Austin/UTA-VIRT-FSF-PT-09-2023-U-LOLC/-/tree/main/11-Express/01-Activities/21-Ins_Modular-Routing/02_Modularized?ref_type=heads 
-
-Cite: https://nodejs.org/dist/latest-v6.x/docs/api/fs.html#fs_fs_readfile_file_options_callback
-
-CITE: https://git.bootcampcontent.com/University-of-Texas-at-Austin/UTA-VIRT-FSF-PT-09-2023-U-LOLC/-/tree/main/11-Express/01-Activities/22-Stu_Modular-Routing?ref_type=heads
-
-CITE: https://expressjs.com/en/5x/api.html#app.delete.method
